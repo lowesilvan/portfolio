@@ -125,8 +125,8 @@ code {
   word-wrap:initial;
 }
 
-.active-link {
-  color: var(--buttons, blue)
+nav a.active {
+  color: var(--highlight-buttons, blue) !important;
 }
 
  /* Main body */
@@ -631,4 +631,107 @@ h1 {
   .footer-bottom {
     font-size: x-large;
   }
+}
+
+/* Contact page */
+
+.contact-body {
+  background: var(--primary-color);
+  height: 100vh;
+  padding-top: 7.3rem;
+  text-align: center;
+  position: relative;
+}
+.headline {
+  font-size: 2.2rem;
+}
+
+.contact-form {
+  display: block;
+  height: 100%;
+  position: absolute;
+  background-color: transparent;
+  width: 700px;
+  left: 22%;
+}
+
+.contact-box {
+  background-color: #ffffff;
+  margin-top: 1em;
+  box-shadow: var(--shd,-5px -5px 5px 5px rgba(190, 187, 187, 0.6));
+
+}
+
+.form-place {
+  text-align: left;
+  padding: 2.5rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
+  display: block;
+}
+
+.form {
+  margin: auto;
+  padding: 1rem;
+  align-items: center;
+}
+label {
+  text-align: left;
+  margin-bottom: 1.3rem;
+  font-weight: 300;
+}
+.d-flex {
+  justify-content: space-between;
+  margin-top: 0;
+}
+input {
+  width: 100%;
+  border: none;
+  padding: 2px;
+  margin-top: 2px;
+  border-bottom: 2px solid black;
+  font-size: 14px;
+  display: block;
+}
+input:focus {
+  border-bottom: 3px solid var(--highlight-buttons);
+}
+input:hover {
+  border-bottom: 3px solid var(--highlight-buttons);
+}
+#subject {
+  display: block;
+  width: 200%;
+}
+textarea {
+  display: block;
+  width: 100%;
+  margin-top: 1.6rem;
+  border: none;
+  padding: 2px;
+  border-bottom: 2px solid black;
+  font-size: 14px;
+  overflow: scroll !important;
+}
+textarea:focus {
+  border-bottom: 3px solid var(--highlight-buttons);
+}
+textarea:hover {
+  border-bottom: 3px solid var(--highlight-buttons);
+}
+#submit {
+  background-color: Var(--buttons, #e4c8c9);
+  border: 1px solid var(--highlight-buttons, #8f454a);
+  padding: 0.3rem 2.3rem;
+  text-transform: capitalize;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-left: 29em;
+  margin-bottom: 1rem;
+}
+#submit:hover {
+  background-color: transparent;
+  color: black;
+  border: 2px solid var(--highlight-buttons, #8f454a);
 }
