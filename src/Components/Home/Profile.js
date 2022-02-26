@@ -6,7 +6,7 @@ const Profile = () => {
         <div className="welcome-section">
             
             <div className="card">
-                <img className="card-img-top" src={me} alt="Lowe's potrait"/>
+                <img className="card-img-top card-img" src={me} alt="Lowe's potrait"/>
                 <h2 className="card-title text-center my-0">Lowe</h2>
                 <h2 className="card-title text-center my-0">Mbonda</h2>
                 <hr/>
@@ -56,7 +56,7 @@ const Profile = () => {
                         <br />
                         I enjoy programming Javascript applications and creating videos on Youtube.
                     </p>
-                    <a href="Lowe-Resume.pdf" download='Lowe-Resume' className="">
+                    <a href="/resume">
                         <button className="btn button1 btn-primary mobile-button-display">RESUME</button>
                     </a>
                     <a href="/projects" className="btn btn-outline-primary button2 mobile-button-display">PROJECTS</a>
