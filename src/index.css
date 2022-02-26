@@ -44,7 +44,6 @@ body {
   max-width: 100%;
   z-index: -1;
   left: 0;
-  overflow-y: scroll;
 }
 
 body::before {
@@ -291,7 +290,7 @@ h1 {
 
 .button1 {
   background-color: Var(--buttons, #e4c8c9);
-  border: 1px solid var(--highlight-buttons, #8f454a);
+  border: 2px solid var(--highlight-buttons, #8f454a);
   margin-top: 1rem;
   padding: 0.3rem 2.3rem;
   text-transform: capitalize;
@@ -300,6 +299,11 @@ h1 {
   border-radius: 50px;
   margin-right: 2rem;
   margin-left: 1rem;
+}
+
+.button1:hover {
+  background-color: #ffffff;
+  color: black;
 }
 
 
@@ -311,6 +315,7 @@ h1 {
   text-transform: capitalize;
   border-radius: 50px;
   margin-left: 1rem;
+  border: 2px solid var(--highlight-buttons, #8f454a);
 }
 
 /* Footer */
@@ -734,4 +739,127 @@ textarea:hover {
   background-color: transparent;
   color: black;
   border: 2px solid var(--highlight-buttons, #8f454a);
+}
+
+/* Resume page */
+
+.resume-body {
+  background: var(--primary-color);
+  height: auto;
+  padding-top: 7.3rem;
+  text-align: center;
+  position: relative;
+}
+
+.resume-content {
+  max-width: 700px;
+  margin: auto;
+  padding: 1rem;
+  padding-top: 2rem;
+}
+
+.experience-style {
+  font-size: 1.6rem;
+  font-weight: 700;
+  align-items: center;
+}
+
+.button3 {
+  background-color: var(--buttons);
+  padding: 0.4rem 1.1rem;
+  text-transform: capitalize;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 50px;
+  font-weight: 600;
+  align-items: center;
+}
+
+.button3:hover {
+  background-color: transparent;
+  border: 2px solid var(--buttons);
+}
+
+.experience {
+  background-color: #ffffff;
+  width: 700px;
+  height: auto;
+  margin: auto;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 1.3rem;
+  font-family: inherit;
+  position:inherit;
+  box-shadow: var(--shd,-5px 5px 5px 5px rgba(212, 208, 208, 0.6));
+  padding-bottom: 1rem;
+}
+.role {
+  max-width: 40%;
+  padding: 1rem;
+  text-align: left;
+  line-height: 1rem;
+}
+.role1 {
+  font-size: 20px;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--buttons);
+  font-weight: 700;
+  margin-top: 0.5px;
+}
+.role2 {
+  font-size: 14px;
+  line-height: normal;
+  letter-spacing: normal;
+  font-weight: 600;
+  margin-top: 0.3px;
+}
+.role3 {
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 0.5px;
+}
+.role4 {
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 0.2px;
+}
+.description {
+  max-width: 60%;
+  padding: 1rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.desc-list {
+    line-height: 1.5rem;
+    letter-spacing: normal;
+    font-size: 14px;
+    text-align: left;
+    font-weight: lighter;
+}
+
+ul li{
+  margin-top: 7px;
+  font-weight: 400;
+}
+
+.course-work {
+  font-size: 17px;
+  font-weight: 600;
+  margin: auto;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.list-style {
+  list-style: none;
+}
+.dot-size {
+  font-size: 7px;
+}
+.dis-skill {
+  display: flex;
+  justify-content: space-evenly;
 }

@@ -6,7 +6,6 @@ import { useNavigate } from 'react-router-dom';
 
 const Contact = () => {
     const formRef = useRef();
-    const {sent, setSent} = useState(false);
     const [isPending, setIsPending] = useState(false);
     const navigate = useNavigate();
 
@@ -14,7 +13,6 @@ const Contact = () => {
         e.preventDefault();
 
         setIsPending(true);
-        // setSent(false);
 
         emailjs.sendForm('service_iuik60w', 'template_3rwxdf7', formRef.current, 'user_3ECmY8VubLjBcnfmKdQfL')
             .then((result) => {
@@ -26,7 +24,7 @@ const Contact = () => {
                 console.log(error.text);
                 alert("Failed! Message NOT Sent", error);
                 navigate("/contact")
-            }
+            } 
         );
     }
 
@@ -54,7 +52,6 @@ const Contact = () => {
                                 </label>
                                 {!isPending && <button id="submit" className="btn">Send</button>}
                                 {isPending && <button id="submit" className="btn">Sending...</button>}
-                                {/* {sent && <button id="submit" className="btn">Done</button>} */}
                             </div>
                         </form>
                     </div>
