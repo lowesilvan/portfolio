@@ -900,10 +900,6 @@ ul li{
   transform: scale(1.1);
 }
 
-.md-preview:hover {
-  transform: scaleX(1.2);
-}
-
 .img-place {
   margin-top: 0;
   padding-top: 0;
