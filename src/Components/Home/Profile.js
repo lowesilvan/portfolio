@@ -1,7 +1,17 @@
+import { useNavigate } from "react-router-dom"
 import Typical from "react-typical"
 import me from "../../Assets/me.jpg"
 
 const Profile = () => {
+
+    const Projects = () => {
+        useNavigate("/projects")
+    }
+
+    const Resume = () => {
+        useNavigate("/resume")
+    }
+
     return (
         <div className="welcome-section">
             
@@ -20,10 +30,8 @@ const Profile = () => {
                     />
                 </span>
                 <div className="mobile-buttons">
-                    <a href="https://lowesilvan.github.io/resume" className="">
-                        <button className="btn button1 btn-primary mobile-btn-touch1">RESUME</button>
-                    </a>
-                    <a href="https://lowesilvan.github.io/projects" className="btn btn-outline-primary button2 mobile-btn-touch">PROJECTS</a>
+                    <button onClick={Resume} className="btn button1 btn-primary mobile-btn-touch1">RESUME</button>
+                    <button onClick={Projects} className="btn btn-outline-primary button2 mobile-btn-touch">PROJECTS</button>
                 </div>
                 <div className="pad">
                     <div className="card-footer">
