@@ -20,10 +20,10 @@ const Profile = () => {
                     />
                 </span>
                 <div className="mobile-buttons">
-                    <a href="/resume" className="">
+                    <a href="https://lowesilvan.github.io/resume" className="">
                         <button className="btn button1 btn-primary mobile-btn-touch1">RESUME</button>
                     </a>
-                    <a href="/projects" className="btn btn-outline-primary button2 mobile-btn-touch">PROJECTS</a>
+                    <a href="https://lowesilvan.github.io/projects" className="btn btn-outline-primary button2 mobile-btn-touch">PROJECTS</a>
                 </div>
                 <div className="pad">
                     <div className="card-footer">
