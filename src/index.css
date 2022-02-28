@@ -800,6 +800,11 @@ ul li{
     align-items: center;
   }
 
+  .main-footer {
+    position: absolute;
+    width: inherit;
+  }
+
   .profile {
     display: block;
     margin-top: 35rem !important;
@@ -865,6 +870,7 @@ ul li{
   }
   .resume-content {
     margin-bottom: 1rem;
+    width: auto;
   }
 
   .button3 {
@@ -875,7 +881,7 @@ ul li{
   .experience {
     padding: 0;
     flex-direction: column;
-    width: 320px;
+    width: 370px !important;
   }
 
   .role {
