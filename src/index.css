@@ -708,8 +708,8 @@ ul li{
   }
 
   .card {
-    top: 6.5rem !important;
-    left: 7% !important;
+    top: 6.5rem;
+    left: 7%;
     width: 308px;
     height: auto;
     padding-bottom: 0.3rem;
@@ -788,10 +788,10 @@ ul li{
   }
 
   .profile {
-    margin: auto ;
+    margin: auto;
     margin-left: 0rem;
     display: block;
-    width: 255px;
+    max-width: 285px;
     margin-top: 37.4rem;
     margin-left: 2rem;
     position: absolute;
@@ -1111,7 +1111,7 @@ ul li{
 @media screen and (min-width: 1400px) { 
   /* Nav bar */
   .navbar-light .navbar-brand {
-    font-size: 2em;
+    font-size: 2rem;
   }
   .navbar-collapse {
     font-size: 1.2rem;
