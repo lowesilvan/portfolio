@@ -36,7 +36,7 @@ const Contact = () => {
                     <div className="contact-box">
                         <form action="" ref={formRef} onSubmit={handleSubmit}>
                             <div className="form-place">
-                                <div className="d-flex">
+                                <div className="d-flex res-flex">
                                     <label htmlFor="user-name">Name <span className="star">*</span>
                                         <input type="text" name="user-name" required />
                                     </label>
@@ -50,7 +50,7 @@ const Contact = () => {
                                 <label htmlFor="user-message">Message <span className="star">*</span>
                                     <textarea form-control="true" name="message" id="message" cols="45" rows="4" required></textarea>
                                 </label>
-                                {!isPending && <button id="submit" className="btn">Send</button>}
+                                {!isPending && <button id="submit" className="btn">SEND</button>}
                                 {isPending && <button id="submit" className="btn">Sending...</button>}
                             </div>
                         </form>

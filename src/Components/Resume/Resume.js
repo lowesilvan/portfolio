@@ -6,7 +6,7 @@ const Resume = () => {
                 <div className="d-flex resume-content">
                     <p className="experience-style">Experience</p>
                     <a href="Lowe-Resume.pdf" download='Lowe-Resume' className="">
-                        <button className="btn button3">Download CV</button>
+                        <button className="btn button3">DOWNLOAD CV</button>
                     </a>
                 </div>
                 <div className="experience d-flex">

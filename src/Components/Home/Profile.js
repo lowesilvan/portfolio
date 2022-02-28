@@ -19,11 +19,11 @@ const Profile = () => {
                         ]}
                     />
                 </span>
-                <div className="mobile-buttons ">
-                    <a href="Lowe-Resume.pdf" download='Lowe-Resume' className="">
-                        <button className="btn button1 btn-primary">RESUME</button>
+                <div className="mobile-buttons">
+                    <a href="/resume" className="">
+                        <button className="btn button1 btn-primary mobile-btn-touch1">RESUME</button>
                     </a>
-                    <a href="/projects" className="btn btn-outline-primary button2">PROJECTS</a>
+                    <a href="/projects" className="btn btn-outline-primary button2 mobile-btn-touch">PROJECTS</a>
                 </div>
                 <div className="pad">
                     <div className="card-footer">
@@ -52,7 +52,7 @@ const Profile = () => {
                     <p className="profile-tagline">
                         I'm Lowe, a Software Developer and Content Creator based in Cameroon.
                         <br />
-                        <br />
+                        <br className="hide-space"/>
                         <br />
                         I enjoy programming Javascript applications and creating videos on Youtube.
                     </p>
