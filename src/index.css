@@ -664,7 +664,6 @@ ul li{
 @media screen and (max-width: 580px) { 
 
   /* Navbar */
-
   .navbar-light .navbar-toggler {
     border-color: #ffffff;
     font-size: 0.8rem;
@@ -680,7 +679,7 @@ ul li{
   }
 
   .navbar-brand {
-    font-size: 1.2rem;
+    font-size: 1.7rem !important;
     margin-left: 0 !important;
   }
 
@@ -704,26 +703,26 @@ ul li{
     clip-path: inset(35% 0 0 0);
     overflow-x: hidden !important;
     margin: auto;
-    height: 115%;
+    height: 100%;
   }
 
   .card {
     top: 6.5rem;
-    left: 7%;
+    left: 10%;
     width: 308px;
     height: auto;
     padding-bottom: 0.3rem;
-    box-shadow: var(--shd,-2px 2px 2px 4px rgba(172, 170, 170, 0.6));
+    box-shadow: var(--shd,-2px 2px 2px 4px rgba(194, 188, 188, 0.6));
   }
 
   .card-img-top {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin: 2rem auto;
   }
 
   .card-title {
-    font-size: 19px;
+    font-size: 1.3rem;
     line-height: 1.5rem;
     font-weight: 600;
   }
@@ -734,14 +733,15 @@ ul li{
     margin-bottom: 1rem;
   }
   .profile-role {
-    font-size: 20px;
+    font-size: 1.7rem;
     letter-spacing: normal;
-    font-weight: 700;
+    font-weight: 800;
   }
 
   .mobile-buttons {
     align-items: center;
     padding-bottom: 1rem;
+    font-size: 18px;
   }
   
   .mobile-btn-touch1 {
@@ -791,10 +791,11 @@ ul li{
     margin: auto;
     margin-left: 0rem;
     display: block;
-    width: 285px;
-    margin-top: 37.4rem;
+    width: 220px;
+    margin-top: 31rem;
     margin-left: 2rem;
     position: absolute;
+    padding: 1rem;
     left: 0;
   }
 
