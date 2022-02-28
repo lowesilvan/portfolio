@@ -715,7 +715,7 @@ ul li{
   }
 
   .card {
-    top: 4.5rem !important;
+    top: 5.5rem !important;
     left: 8% !important;
     width: 350px;
     height: auto;
@@ -730,7 +730,7 @@ ul li{
   }
 
   .card-title {
-    font-size: 1rem;
+    font-size: 1.3rem !important;
     line-height: 1.5rem;
     font-weight: 600;
   }
@@ -798,7 +798,7 @@ ul li{
 
   .profile {
     display: block;
-    margin-top: 32rem !important;
+    margin-top: 35rem !important;
     margin-left: 2rem !important;
     position: absolute;
     text-align: center;
