@@ -803,6 +803,8 @@ ul li{
     position: absolute;
     text-align: center;
     width: 420px !important;
+    z-index: 2;
+    padding-top: 2rem;
   }
 
   .profile p {
