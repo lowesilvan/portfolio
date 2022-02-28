@@ -683,6 +683,14 @@ ul li{
     margin-left: 0 !important;
   }
 
+  /* Footer */
+
+  .col-md-6 {
+    width: auto !important;
+  }
+  .row {
+    justify-content: space-between !important;
+  }
   /* Homepage */
 
   .mobile-buttons {
@@ -703,13 +711,13 @@ ul li{
     clip-path: inset(35% 0 0 0);
     overflow-x: hidden !important;
     margin: auto;
-    height: 110%;
+    height: 100% !important;
   }
 
   .card {
-    top: 4rem;
-    left: 8%;
-    width: 320px;
+    top: 4.5rem !important;
+    left: 8% !important;
+    width: 350px;
     height: auto;
     padding-bottom: 0.3rem;
     box-shadow: var(--shd,-2px 2px 2px 4px rgba(194, 188, 188, 0.6));
@@ -718,7 +726,7 @@ ul li{
   .card-img-top {
     width: 150px;
     height: 150px;
-    margin: 2rem auto;
+    margin: 2rem auto !important ;
   }
 
   .card-title {
@@ -741,11 +749,12 @@ ul li{
   .mobile-buttons {
     align-items: center;
     padding-bottom: 1rem;
-    font-size: 18px;
+    font-size: 18px !important;
+    justify-content: space-around;
   }
   
   .mobile-btn-touch1 {
-    font-size: 14px;
+    font-size: 18px;
     padding-left: 1.7rem;
     padding-right: 1.7rem;
     border: 1px solid var(--buttons);
@@ -757,7 +766,7 @@ ul li{
   }
 
   .mobile-btn-touch {
-    font-size: 14px;
+    font-size: 18px;
     padding: 0.3rem 1rem;
     border: 1px solid var(--buttons);
   }
@@ -788,15 +797,12 @@ ul li{
   }
 
   .profile {
-    margin: auto;
-    margin-left: 0rem;
     display: block;
-    width: 320px;
-    margin-top: 30rem;
-    margin-left: 2rem;
+    margin-top: 32rem !important;
+    margin-left: 2rem !important;
     position: absolute;
-    padding: 1rem;
-    left: 0;
+    text-align: center;
+    width: 420px !important;
   }
 
   .profile p {
