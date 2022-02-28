@@ -130,7 +130,7 @@ nav a.active {
 
  /* Main body */
 .content::after {
-   max-width: 100%;
+   width: 100%;
    left: 0;
  }
 
@@ -481,7 +481,7 @@ textarea:hover {
 }
 
 .resume-content {
-  max-width: 700px;
+  width: 700px;
   margin: auto;
   padding: 1rem;
   padding-top: 2rem;
@@ -649,7 +649,7 @@ ul li{
 }
 
 .lost-content {
-  max-width: 700px;
+  width: 700px;
   margin: auto;
   padding: 1rem;
   padding-top: 2rem;
@@ -791,7 +791,7 @@ ul li{
     margin: auto;
     margin-left: 0rem;
     display: block;
-    max-width: 285px;
+    width: 285px;
     margin-top: 37.4rem;
     margin-left: 2rem;
     position: absolute;
