@@ -1,3 +1,5 @@
+import lowe_resume from "../../Assets/lowe_resume.pdf"
+
 const Resume = () => {
     return (
         <div className="resume-body">
@@ -5,7 +7,7 @@ const Resume = () => {
                 <h2 className="navbar-brand headline" href="/"><span className="dot align-top mr-3">do</span>Resume</h2>
                 <div className="d-flex resume-content">
                     <p className="experience-style">Experience</p>
-                    <a href="lowe_resume.pdf" download='Lowe-Resume' className="" target="_blank" rel="noreferrer">
+                    <a href={lowe_resume} download className="" target="_blank" rel="noreferrer">
                         <button className="btn button3">DOWNLOAD CV</button>
                     </a>
                 </div>

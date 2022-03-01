@@ -38,16 +38,16 @@ const Profile = () => {
                     <div className="card-footer">
                         <p>Get in Touch</p>
                         <div className="card-link">
-                            <a href="https://www.linkedin.com/in/lowesilvan/" title="Linkedin">
+                            <a href="https://www.linkedin.com/in/lowesilvan/" title="Linkedin" target="_blank" rel="noreferrer">
                                 <i className="fa fa-linkedin effect"></i>
                             </a>
-                            <a href="https://www.instagram.com/lowesilvan/" title="Instagram">
+                            <a href="https://www.instagram.com/lowesilvan/" title="Instagram" target="_blank" rel="noreferrer">
                                 <i className="fa fa-instagram effect"></i>
                             </a>
-                            <a href="https://twitter.com/dt_lowe" title="Twitter">
+                            <a href="https://twitter.com/dt_lowe" title="Twitter" target="_blank" rel="noreferrer">
                                 <i className="fa fa-twitter effect"></i>
                             </a>
-                            <a href="https://github.com/lowesilvan" title="Github" className="">
+                            <a href="https://github.com/lowesilvan" title="Github" className="" target="_blank" rel="noreferrer">
                                 <i className="fa fa-github effect"></i>
                             </a>
                         </div>
