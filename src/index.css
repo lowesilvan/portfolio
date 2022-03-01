@@ -843,7 +843,7 @@ ul li{
 
   .contact-form {
     left: 1% !important;
-    width: 390px !important;
+    width: auto !important;
     height: auto;
     margin-top: 0.5rem;
     z-index: 2;
