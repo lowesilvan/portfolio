@@ -724,7 +724,7 @@ ul li{
 
   .card {
     top: 5.5rem !important;
-    left: 5% !important;
+    left: auto !important;
     width: 330px;
     height: auto;
     padding-bottom: 0.3rem;
