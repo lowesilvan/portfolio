@@ -718,17 +718,17 @@ ul li{
     clip-path: inset(35% 0 0 0);
     overflow-x: hidden !important;
     margin: auto;
-    height: 90vh !important;
+    height: 100vh !important;
     width: 100% !important;
   }
 
   .card {
     top: 5.5rem !important;
-    left: 8% !important;
+    left: 5% !important;
     width: 350px;
     height: auto;
     padding-bottom: 0.3rem;
-    box-shadow: var(--shd,-2px 2px 2px 4px rgba(194, 188, 188, 0.6));
+    box-shadow: var(--shd, 4px 2px 2px 4px rgba(194, 188, 188, 0.6));
   }
 
   .card-img-top {
@@ -816,7 +816,7 @@ ul li{
     width: 420px !important;
     z-index: 2;
     background-color: var(--primary-color);
-    top: -14rem;
+    top: -16rem;
     padding-left: 2rem !important
   }
 
