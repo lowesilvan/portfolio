@@ -3,13 +3,14 @@ import Typical from "react-typical"
 import me from "../../Assets/me.jpg"
 
 const Profile = () => {
+    const navigate = useNavigate();
 
     const Projects = () => {
-        useNavigate("/projects")
+        navigate("/projects")
     }
 
     const Resume = () => {
-        useNavigate("/resume")
+        navigate("/resume")
     }
 
     return (
