@@ -22,6 +22,7 @@ function App() {
               <Route path="/resume" element={<Resume />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="*" element={<NotFound />} />
+              <Route path="/Portfolio" element={<Profile />} />
             </Route>
           </Routes>
         </div>
