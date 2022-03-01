@@ -861,6 +861,10 @@ ul li{
     margin-bottom: 0.2rem;
   }
 
+  .main-footer {
+    z-index: -1 !important;
+  }
+
   /* Resume page */
 
   .experience-style {
