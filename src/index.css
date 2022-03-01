@@ -725,7 +725,7 @@ ul li{
   .card {
     top: 5.5rem !important;
     left: 5% !important;
-    width: 350px;
+    width: 330px;
     height: auto;
     padding-bottom: 0.3rem;
     box-shadow: var(--shd, 4px 2px 2px 4px rgba(194, 188, 188, 0.6));
