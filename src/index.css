@@ -886,7 +886,7 @@ ul li{
   .experience {
     padding: 0;
     flex-direction: column;
-    width: 370px !important;
+    width: auto !important;
   }
 
   .role {
