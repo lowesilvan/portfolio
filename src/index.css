@@ -840,7 +840,7 @@ ul li{
   /* Contact me page */
 
   .contact-body {
-    width: 100%;
+    width: 105% !important;
   }
 
   .contact-form {
@@ -874,6 +874,9 @@ ul li{
   .experience-style {
     font-size: 1.5rem;
     margin: auto auto auto 0;
+  }
+  .resume-body {
+    width: 105% !important;
   }
   .resume-content {
     margin-bottom: 1rem;
