@@ -373,7 +373,7 @@ h1 {
   padding-top: 7.5rem;
   text-align: center;
   position: relative;
-  width: 105%;
+  width: 105% !important;
 }
 
 .headline {
@@ -482,7 +482,7 @@ textarea:hover {
   padding-bottom: 3rem;
   text-align: center;
   position: relative;
-  width: 105%;
+  width: 105% !important;
 }
 
 .resume-content {
