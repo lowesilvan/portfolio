@@ -373,7 +373,7 @@ h1 {
   padding-top: 7.5rem;
   text-align: center;
   position: relative;
-  width: 105% !important;
+  width: 100vw !important;
 }
 
 .headline {
@@ -482,7 +482,7 @@ textarea:hover {
   padding-bottom: 3rem;
   text-align: center;
   position: relative;
-  width: 105% !important;
+  width: 100vw !important;
 }
 
 .resume-content {
@@ -840,7 +840,7 @@ ul li{
   /* Contact me page */
 
   .contact-body {
-    width: 105% !important;
+    width: 100vw !important;
   }
 
   .contact-form {
@@ -876,7 +876,7 @@ ul li{
     margin: auto auto auto 0;
   }
   .resume-body {
-    width: 105% !important;
+    width: 100vw !important;
   }
   .resume-content {
     margin-bottom: 1rem;
