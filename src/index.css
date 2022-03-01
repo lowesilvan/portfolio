@@ -841,7 +841,7 @@ ul li{
     width: 390px !important;
     height: auto;
     margin-top: 0.5rem;
-    z-index: 999;
+    z-index: 2;
   }
 
   .res-flex {
