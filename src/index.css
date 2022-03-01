@@ -841,6 +841,7 @@ ul li{
     width: 390px !important;
     height: auto;
     margin-top: 0.5rem;
+    z-index: 999;
   }
 
   .res-flex {
@@ -859,10 +860,6 @@ ul li{
   #submit {
     margin-left: 8rem !important;
     margin-bottom: 0.2rem;
-  }
-
-  .main-footer {
-    z-index: -1 !important;
   }
 
   /* Resume page */
