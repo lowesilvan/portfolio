@@ -5,7 +5,7 @@ const Resume = () => {
                 <h2 className="navbar-brand headline" href="/"><span className="dot align-top mr-3">do</span>Resume</h2>
                 <div className="d-flex resume-content">
                     <p className="experience-style">Experience</p>
-                    <a href="/Lowe-Resume.pdf" download='Lowe-Resume' className="">
+                    <a href="Lowe-Resume.pdf" download='Lowe-Resume' className="" target="_blank" rel="noreferrer">
                         <button className="btn button3">DOWNLOAD CV</button>
                     </a>
                 </div>
