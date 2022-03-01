@@ -68,7 +68,7 @@ code {
  /* Navigation Bar */
 .navbar {
   max-width: 100%;
-  z-index: 2 !important;
+  z-index: 999 !important;
   display: flex;
   align-items: center;
   justify-content: space-between;
