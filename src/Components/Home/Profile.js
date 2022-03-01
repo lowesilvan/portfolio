@@ -65,10 +65,8 @@ const Profile = () => {
                         <br />
                         I enjoy programming Javascript applications and creating videos on Youtube.
                     </p>
-                    <a href="/resume">
-                        <button className="btn button1 btn-primary mobile-button-display">RESUME</button>
-                    </a>
-                    <a href="/projects" className="btn btn-outline-primary button2 mobile-button-display">PROJECTS</a>
+                    <button onClick={Resume} className="btn button1 btn-primary mobile-button-display">RESUME</button>
+                    <button onClick={Projects} className="btn btn-outline-primary button2 mobile-button-display">PROJECTS</button>
                 </div>
             </div>
     );
