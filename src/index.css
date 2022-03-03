@@ -152,8 +152,8 @@ nav a.active {
     margin-top: 0.3em;
 }
 
-/**
- * Animate collapse into X.
+/*
+Animate collapse into X.
  */
 
 /* top line rotates 45 degrees clockwise and moves up and in a bit to close the center of the X in the center of the button */
@@ -170,8 +170,8 @@ nav a.active {
 }
 
 
-/**
- * Animate collapse open into hamburger menu
+/*
+ Animate collapse open into hamburger menu
  */
 
 /* top line moves back to initial position and rotates back to 0 degrees */
@@ -728,7 +728,7 @@ ul li{
 
   .navbar-toggler .navbar-toggler-icon:focus {
   text-decoration: none;
-  } */
+  } 
 
   .navbar-brand {
     margin-left: 0 !important;
@@ -986,7 +986,7 @@ ul li{
     transform: scale(1);
   }
 }
-/* // Medium devices (tablets, 768px and up) */
+/* Medium devices (tablets, 768px and up) */
 @media screen and (max-width: 768px) { 
   /* Navbar */
   .navbar-brand {
@@ -1107,7 +1107,7 @@ ul li{
 
 }
 
-/* // XX-Large devices (larger desktops, 1400px and up) */
+/* XX-Large devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) { 
   /* Nav bar */
   .navbar-light .navbar-brand {
