@@ -77,7 +77,7 @@ code {
   top: 0;
   left: 0;
   position: fixed;
-  width: 100%;
+  width: 100vw;
 }
 
 .navbar a {
@@ -131,27 +131,82 @@ nav a.active {
 .navbar-collapse {
   z-index: 999 !important;
 }
+/* Define the shape and color of the hamburger lines */
+.navbar-toggler span {
+    display: block;
+    background-color: #4f4f4f;
+    height: 3px;
+    width: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    left: 0;
+    opacity: 1;
+    transition: all 0.35s ease-out;
+    transform-origin: center left;
+}
+
+
+/* top line needs a little padding */
+.navbar-toggler span:nth-child(1) {
+    margin-top: 0.3em;
+}
+
+/**
+ * Animate collapse into X.
+ */
+
+/* top line rotates 45 degrees clockwise and moves up and in a bit to close the center of the X in the center of the button */
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+    transform: translate(15%, -33%) rotate(45deg);
+}
+/* center line goes transparent */
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+    opacity: 0;
+}
+/* bottom line rotates 45 degrees counter clockwise, in, and down a bit to close the center of the X in the center of the button  */
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+    transform: translate(15%, 33%) rotate(-45deg) ;
+}
+
+
+/**
+ * Animate collapse open into hamburger menu
+ */
+
+/* top line moves back to initial position and rotates back to 0 degrees */
+.navbar-toggler span:nth-child(1) {
+    transform: translate(0%, 0%) rotate(0deg) ;
+}
+/* middle line goes back to regular color and opacity */
+.navbar-toggler span:nth-child(2) {
+    opacity: 1;
+}
+/* bottom line goes back to initial position and rotates back to 0 degrees */
+.navbar-toggler span:nth-child(3) {
+    transform: translate(0%, 0%) rotate(0deg) ;
+}
+
 
  /* Main body */
 .content::after {
-   width: 100%;
+   width: 100vw;
    left: 0;
  }
 
-.container-fluid {
-  padding-left: 0;
-}
- /* Homepage */
-
-.welcome-section {
+.main-body {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.welcome-section::before {
+    padding-top: 8.5rem;
+    padding-bottom: 3rem;
+    font-family: inherit;
+ }
+
+.main-body::before {
     content: "";
     position: absolute;
     top: 0;
@@ -163,40 +218,48 @@ nav a.active {
     background-size: cover;
     background-position: center center;
     clip-path: inset(16.5% 58% 0 0);
-    z-index: 1;
+    z-index: -1;
 }
 
-/* Homepage Card */
+.container-fluid {
+  padding-left: 0;
+}
+
+.home-card {
+  background-color: #ffffff;
+  width: 700px;
+  height: auto;
+  margin: auto;
+  justify-content: space-between;
+  font-size: 12px;
+  font-family: inherit;
+  position: inherit;
+  box-shadow: var(--shd,-5px 5px 5px 5px rgba(212, 208, 208, 0.6));
+
+}
+ /* Homepage */
 
 .card {
   background: var(--highlight-primary);
-  margin: auto;
-  margin-right: 0;
-  padding-right: 0;
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
-  top: 9rem;
-  z-index: 1;
-  position: absolute;
   font-family: inherit;
-  width: 390px;
-  height: 460px;
-  left: 13rem;
-  box-shadow: var(--shd,-5px 9px 5px 5px rgba(212, 208, 208, 0.6));
+  width: 50%;
+  height: auto;
   border-radius: inherit;
   border-style: unset;
+  margin-top: 0;
+
 }
 
 .card-img-top {
-    width: 205px;
-    height: 205px;
+    width: 220px;
+    height: 233px;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50%;
     justify-content: center;
     object-fit: cover;
     object-position: 50% 50%;
-    margin: 2rem auto;
+    margin: 1.5rem auto;
 }
 
 .card-img:hover {
@@ -207,7 +270,7 @@ nav a.active {
 .card-title {
     line-height: 1.2em;
     font-size: 27px;
-    font-weight: bold;
+    font-weight: lighter;
 }
 
 hr{
@@ -221,8 +284,8 @@ hr{
 
 .profile-role {
   font-size: 22px;
-  font-weight: 600;
-  letter-spacing: 0.25em;
+  font-weight: bolder;
+  letter-spacing: 0.15rem;
   font-family: monospace;
   line-height: 1.3em;
 }
@@ -253,6 +316,7 @@ hr{
   margin-bottom: 0;
   margin-top: 0;
   font-weight: 500;
+  font-size: 14px;
 }
 
 .card-link {
@@ -269,29 +333,21 @@ hr{
 }
 
 /* Homepage Side section */
-.profile {
-  margin-top: 6rem;
-  text-align: start;
-  margin-left: 3rem;
-  padding-left: 0;
-  z-index: 1;
-  font-family: inherit;
+.home-card-description {
+  padding: 1rem;
+  width: 55%;
 }
 
-.profile p {
-  line-height: 1.5em;
-  font-size: 17px;
-  font-family: Helvetica, sans-serif;
-  font-weight: lighter;
-  display: block;
-}
-
-h1 {
+.home-card-description h1 {
   font-size: 100px;
   line-height: normal;
   letter-spacing: normal;
   display: block;
   font-weight: bold;
+}
+
+.home-card-description p {
+  font-size: 15px;
 }
 
 .button1 {
@@ -304,7 +360,6 @@ h1 {
   cursor: pointer;
   border-radius: 50px;
   margin-right: 2rem;
-  margin-left: 1rem;
 }
 
 .button1:hover {
@@ -369,8 +424,9 @@ h1 {
 
 .contact-body {
   background: var(--primary-color);
-  height: 100vh;
+  height: auto;
   padding-top: 7.5rem;
+  padding-bottom: 3rem;
   text-align: center;
   position: relative;
   width: 100vw !important;
@@ -381,26 +437,28 @@ h1 {
 }
 
 .contact-form {
-  display: block;
-  height: 100%;
-  position: absolute;
-  background-color: transparent;
   width: 700px;
-  left: 22%;
+  height: auto;
+  position: inherit;
+  background-color: transparent;
+  margin: auto;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 2rem;
 }
 
 .contact-box {
   background-color: #ffffff;
-  margin-top: 1em;
+  margin: auto;
+  flex-wrap: wrap;
   box-shadow: var(--shd,-5px -5px 5px 5px rgba(190, 187, 187, 0.6));
-
+  width: inherit;
+  padding: 2rem;
+  align-items: center;
 }
 
-.form-place {
+ .form-place {
   text-align: left;
-  padding: 2.5rem;
-  padding-bottom: 0.5rem;
-  width: 100%;
   display: block;
 }
 
@@ -435,11 +493,10 @@ input:hover {
 }
 #subject {
   display: block;
-  width: 200%;
 }
 textarea {
   display: block;
-  width: 100%;
+  width: auto;
   margin-top: 1.6rem;
   border: none;
   padding: 2px;
@@ -460,8 +517,7 @@ textarea:hover {
   color: #ffffff;
   cursor: pointer;
   border-radius: 50px;
-  margin-left: 29em;
-  margin-bottom: 1rem;
+  margin: auto;
   text-transform: capitalize;
 }
 #submit:hover {
@@ -471,7 +527,7 @@ textarea:hover {
 }
 .star {
   color: var(--buttons);
-}
+} 
 
 /* Resume page */
 
@@ -669,22 +725,12 @@ ul li{
 @media screen and (max-width: 580px) { 
 
   /* Navbar */
-  .navbar-light .navbar-toggler {
-    border-color: #ffffff;
-    font-size: 0.8rem;
-    border-color: var(--highlight-buttons);
-  }
-
-  .navbar-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba(0, 123, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
-  }
 
   .navbar-toggler .navbar-toggler-icon:focus {
   text-decoration: none;
-  }
+  } */
 
   .navbar-brand {
-    font-size: 1.4rem;
     margin-left: 0 !important;
   }
 
@@ -710,37 +756,43 @@ ul li{
     display: none;
   }
 
-  .welcome-section {
-    overflow-x: hidden !important;
-    position: relative;
-    left: 0;
+  .main-body::before {
+    clip-path: inset(30% 0 0 0);
+    padding-bottom: 0;
+  }
+  .main-body {
+    padding-top: 7.8rem;
+    padding-bottom: 0;
   }
 
-  .welcome-section::before {
-    clip-path: inset(35% 0 0 0);
-    overflow-x: hidden !important;
-    margin: auto;
-    height: 100vh !important;
-    width: 100% !important;
+  .home-card {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100vw;
+    overflow-wrap: normal;
+    background-color: transparent;
+    box-shadow: unset;
   }
-
+  .home-card-description {
+    width: inherit;
+    padding: 2rem;
+    padding-top: 1rem;
+  }
+  
   .card {
-    top: 5.5rem !important;
-    left: auto !important;
-    width: 330px;
-    height: auto;
-    padding-bottom: 0.3rem;
-    box-shadow: var(--shd, -2px 2px 2px 4px rgba(218, 212, 212, 0.6));
+    box-shadow: var(--shd, -2px -2px 2px 2px rgba(218, 212, 212, 0.6));
+    width: 355px;
+    margin: auto;
   }
 
   .card-img-top {
-    width: 150px;
-    height: 150px;
-    margin: 2rem auto !important ;
+    width: 200px;
+    height: 220px;
+    margin: 1.2rem auto !important ;
   }
 
   .card-title {
-    font-size: 1.3rem !important;
+    font-size: 1.2rem !important;
     line-height: 1.5rem;
     font-weight: 600;
   }
@@ -750,17 +802,11 @@ ul li{
     border-top: 2px solid var(--buttons);
     margin-bottom: 1rem;
   }
-  .profile-role {
-    font-size: 1.7rem;
-    letter-spacing: normal;
-    font-weight: 800;
-  }
-
   .mobile-buttons {
     align-items: center;
-    padding-bottom: 1rem;
-    font-size: 18px !important;
-    justify-content: space-around;
+    padding-bottom: 0;
+    font-size: 16px !important;
+    justify-content: space-evenly;
   }
   
   .mobile-btn-touch1 {
@@ -787,7 +833,7 @@ ul li{
 
   .pad {
     background-color: #ffffff;
-    margin-top: 1rem;
+    margin-top: 1.3rem;
   }
 
   .card-footer {
@@ -811,46 +857,22 @@ ul li{
     width: inherit;
   }
 
-  .profile {
-    display: block;
-    position: absolute;
-    text-align: center;
-    width: 420px !important;
-    z-index: 2;
-    background-color: var(--primary-color);
-    top: -16rem;
-    padding-left: 2rem !important
-  }
-
-  .profile p {
-    font-size: 15px;
-    line-height: 1.25rem;
-    font-family: monospace;
-    font-weight: 400;
-  }
-
-  .profile h1 {
-    font-size: 25px;
-  }
-
   .hide-space {
     display: none;
   }
 
   /* Contact me page */
 
-  .contact-body {
-    width: 100vw !important;
-  }
-
-  .contact-form {
-    left: 1% !important;
-    width: auto !important;
-    height: auto;
-    margin-top: 0.5rem;
+   .contact-form {
+    width: auto;
     z-index: 2;
-  }
+  } 
 
+  .contact-box {
+    margin: auto;
+    width: 355px;
+    padding: 0.7rem;
+  }
   .res-flex {
     flex-direction: column;
   }
@@ -861,12 +883,12 @@ ul li{
   }
 
   #subject {
-    width: 130% !important;
+    width: inherit;
   }
 
   #submit {
-    margin-left: 8rem !important;
     margin-bottom: 0.2rem;
+    display: block;
   }
 
   /* Resume page */
@@ -889,9 +911,10 @@ ul li{
   }
 
   .experience {
-    padding: 0;
+    padding: 0.5rem;
     flex-direction: column;
-    width: auto !important;
+    width: 355px;
+    margin: auto;
   }
 
   .role {
@@ -971,27 +994,7 @@ ul li{
     margin-left: 0 !important;
   }
   /* Homepage */
-  .welcome-section {
-    overflow-x: hidden !important;
-    position: relative;
-    left: 0;
-  }
 
-  .welcome-section::before {
-    clip-path: inset(30% 0 0 0);
-    overflow-x: hidden !important;
-    margin: auto;
-    height: 115%;
-  }
-
-  .profile {
-    margin-top: 55rem;
-    width: 500px;
-    margin-left: 0;
-    padding-left: 0;
-    left: 0;
-    padding-right: 5rem;
-  }
 
   .profile h1 {
     font-size: 70px;
@@ -1001,49 +1004,20 @@ ul li{
     font-size: 19px;
   }
 
-  .card {
-    left: 16%;
-    top: auto;
-    height: auto;
-  }
-
-  .mobile-buttons {
-    display: contents;
-    display: flex;
-  }
-  .mobile-button-display {
-    display: none;
-  }
-
-  .pad {
-    margin-top: 2rem;
-  }
-
   /* Contact Me page */
 
   .dot {
     font-size: 12px;
   }
 
-  .contact-form {
-    left: 7.2%;
-    width: 500px;
-    height: auto;
-    margin-top: 0.5rem;
-  }
 
   .res-flex {
     flex-direction: column;
   }
 
-    #subject {
-    width: 150%;
-  }
-
   #submit {
-    margin-left: 9rem;
-    margin-bottom: 1rem;
-  }
+    display: block;
+  } 
 
   /* Resume page */
 
@@ -1063,7 +1037,6 @@ ul li{
   .experience {
     padding: 0;
     flex-direction: column;
-    width: 500px;
   }
 
   .role {
@@ -1131,9 +1104,7 @@ ul li{
 
 /* Laptop */
 @media screen and (max-width: 1200px) { 
-  .card {
-    top: 14rem;
-  }
+
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
@@ -1145,34 +1116,19 @@ ul li{
   .navbar-collapse {
     font-size: 1.2rem;
   }
-  /* main body */
-  .welcome-section {
-    height: 90vh;
-    letter-spacing: 0.1em;
-  }
- 
-  /* card */
 
-  .card {
-    top: 13.5rem;
-    left: 31rem;
-  }
   /* side section */
   .profile p {
     font-size: 1rem;
   }
-  .btn {
-    font-size: 1.2rem;
-  }
+
   /* main footer*/
   .footer-contact {
     font-size: 1rem;
   }
 
-  .contact-form {
-    left: 33%;
-  }
+
   #submit {
-    margin-left: 25rem;
+    display: block;
   }
 }
