@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.6359b575.css",
+    "main.js": "/Portfolio/static/js/main.328b5d24.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/me.jpg": "/Portfolio/static/media/me.f119cac6bef3ba771963.jpg",
+    "static/media/lowe_resume.pdf": "/Portfolio/static/media/lowe_resume.d0caced9bff25ff923a4.pdf",
+    "static/media/md_preview.png": "/Portfolio/static/media/md_preview.ae641c6fc71d8954dd82.png",
+    "index.html": "/Portfolio/index.html",
+    "main.6359b575.css.map": "/Portfolio/static/css/main.6359b575.css.map",
+    "main.328b5d24.js.map": "/Portfolio/static/js/main.328b5d24.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6359b575.css",
+    "static/js/main.328b5d24.js"
+  ]
+}
