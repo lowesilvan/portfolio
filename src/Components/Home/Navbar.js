@@ -1,10 +1,13 @@
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+    const Voidy = () => {
+        return false;
+    }
     return ( 
         <nav className="navbar navbar-expand-lg navbar-light">
             <a className="navbar-brand mx-3" href="/Portfolio"><span className="dot align-top mr-3">do</span>Lowe Mbonda</a>
-            <a href className="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#toggleMobileMenu" aria-controls="#toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <a href="#" onClick={Voidy} className="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#toggleMobileMenu" aria-controls="#toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
                 {/* <span className="navbar-toggler-icon "></span> */}
                 <span></span>
                 <span></span>

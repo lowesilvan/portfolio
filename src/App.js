@@ -8,10 +8,12 @@ import Contact from './Components/ContactMe/Contact';
 import Projects from './Components/Projects/Projects';
 import Resume from './Components/Resume/Resume';
 import NotFound from './Components/ErrorPages/NotFound';
+import ScrollToTop from './Components/Home/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="App container-fluid">
         <Navbar />
         <div className="content">

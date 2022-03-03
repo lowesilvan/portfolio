@@ -1131,4 +1131,21 @@ ul li{
   #submit {
     display: block;
   }
+
+  /* .back-to-top {
+    position: fixed;
+    bottom: 50px;
+    left: 90%;
+    height: 50px;
+    width: 50px;
+    font-size: 50px;
+    background: #ffffff;
+    color: black;
+    cursor: pointer;
+  }
+
+  .back-to-top:hover {
+    background: var(--buttons);
+    color: #ffffff;
+  } */
 }
