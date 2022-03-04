@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import { useState } from "react";
-import '../../../src/index.css';
 
 const BackToTopButton = () => {
     const [showButton, setShowButton] = useState(false);

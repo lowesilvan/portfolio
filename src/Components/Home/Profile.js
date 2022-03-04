@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom"
 import Typical from "react-typical"
-import me from "../../Assets/me.jpg"
+import me from "../../Assets/me.webp"
 
 const Profile = () => {
     const navigate = useNavigate();
@@ -40,16 +40,16 @@ const Profile = () => {
                             <p>Get in Touch</p>
                             <div className="card-link">
                                 <a href="https://www.linkedin.com/in/lowesilvan/" title="Linkedin" target="_blank" rel="noreferrer">
-                                    <i className="fa fa-linkedin effect"></i>
+                                    <i className="fa fa-linkedin"></i>
                                 </a>
                                 <a href="https://www.instagram.com/lowesilvan/" title="Instagram" target="_blank" rel="noreferrer">
-                                    <i className="fa fa-instagram effect"></i>
+                                    <i className="fa fa-instagram"></i>
                                 </a>
                                 <a href="https://twitter.com/dt_lowe" title="Twitter" target="_blank" rel="noreferrer">
-                                    <i className="fa fa-twitter effect"></i>
+                                    <i className="fa fa-twitter"></i>
                                 </a>
                                 <a href="https://github.com/lowesilvan" title="Github" className="" target="_blank" rel="noreferrer">
-                                    <i className="fa fa-github effect"></i>
+                                    <i className="fa fa-github"></i>
                                 </a>
                             </div>
                         </div>

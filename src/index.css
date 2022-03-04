@@ -406,7 +406,7 @@ hr{
   letter-spacing: 0.6em;
   align-items: center;
   justify-content: space-evenly;
-  font-size: 1.2rem;
+  font-size: 17px;
   text-align: center;
 }
 
@@ -666,8 +666,9 @@ ul li{
 }
 
 .img-place {
-  margin-top: 0;
+  margin-top: 1rem;
   padding-top: 0;
+  margin-bottom: 0.3rem;
   margin-right: -8px;
   padding-right: 0;
   width: 40% !important;
