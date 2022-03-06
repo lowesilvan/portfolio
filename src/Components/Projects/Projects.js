@@ -1,6 +1,7 @@
 import md_preview from "../../Assets/md_preview.webp"
 import my_site from "../../Assets/my_site.webp"
 import focus_mode from "../../Assets/focus_mode.webp"
+import ScrollToTop from "react-scroll-to-top"
 
 const Projects = () => {
     return (
@@ -65,6 +66,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+            <ScrollToTop smooth color="#007bff" />
         </div>
     );
 }

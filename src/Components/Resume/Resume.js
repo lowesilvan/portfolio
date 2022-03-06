@@ -1,3 +1,4 @@
+import ScrollToTop from "react-scroll-to-top"
 import lowe_resume from "../../Assets/lowe_resume.pdf"
 
 const Resume = () => {
@@ -69,6 +70,7 @@ const Resume = () => {
                     </div>
                 </div>
             </div>
+            <ScrollToTop smooth color="#007bff" />
         </div>
     );
 }
