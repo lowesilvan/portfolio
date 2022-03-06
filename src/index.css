@@ -403,10 +403,10 @@ hr{
 }
 
 .footer-links {
-  letter-spacing: 0.6em;
+  letter-spacing: 0.7em;
   align-items: center;
   justify-content: space-evenly;
-  font-size: 17px;
+  font-size: 1.3rem;
   text-align: center;
 }
 
@@ -414,6 +414,7 @@ hr{
   color: inherit;
   cursor: pointer;
   margin-top: 0;
+  font-size: inherit;
 }
 
 .footer-bottom{
@@ -856,6 +857,10 @@ ul li{
   .main-footer {
     position: absolute;
     width: inherit;
+  }
+
+  .footer-links a{
+    font-size: 1.2rem;
   }
 
   .hide-space {

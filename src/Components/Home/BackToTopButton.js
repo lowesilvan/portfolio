@@ -7,7 +7,7 @@ const BackToTopButton = () => {
 
     useEffect(() => {
         window.addEventListener("scroll", () => {
-            if (window.pageYOffset > 200) {
+            if (window.pageYOffset > 100) {
                 setShowButton(true);
             } else {
                 setShowButton(false);
@@ -25,8 +25,8 @@ const BackToTopButton = () => {
     return ( 
         <span className="back-to-top">
             {showButton && (
-                <button onClick={scrollToTop} className="btn btn-primary" style={{right: "5%", position: "fixed"}}>
-                    &#8679;
+                <button onClick={scrollToTop} className="button1">
+                    &#8963;
                 </button>
             )}
         </span>
