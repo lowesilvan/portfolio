@@ -29,24 +29,7 @@ const Projects = () => {
                         <img src={my_site} alt="" className="md-preview" />
                     </div>
                 </div>
-                <div className="experience d-flex mt-5">
-                    <div className="role desc-proj">
-                        <div className="button4-flex">
-                            <p className="role1">Chrome Extension That Blocks Certain Distracting websites</p>
-                            <a href="https://github.com/lowesilvan/Focus-Mode-Chrome-Extension" className="btn button4" target="_blank" rel="noreferrer">Check it out!</a>
-                        </div>
-                        <p className="role2 underline">Description</p>
-                        <p className="role3">I programmed a chrome extension called Focus Mode. It’s easy to get 
-                        distracted when working on the same device which also provides you entertainment so focus mode 
-                        extension serves as a subtle “Focus” mode for browsers given the selected hostnames, It blocks 
-                        these websites and instead displays a custom webpage.</p>
-                        <p className="role2 underline">Technologies</p>
-                        <p className="role3">Javascript, HTML</p>
-                    </div>
-                    <div className="description img-place">
-                        <img src={focus_mode} alt="" className="md-preview" />
-                    </div>
-                </div>
+
                 <div className="experience d-flex mt-5">
                     <div className="role desc-proj">
                         <div className="button4-flex">
@@ -63,6 +46,40 @@ const Projects = () => {
                     </div>
                     <div className="description img-place">
                         <img src={md_preview} alt="" className="md-preview" />
+                    </div>
+                </div>
+                <div className="experience d-flex mt-5">
+                    <div className="role desc-proj">
+                        <div className="button4-flex">
+                            <p className="role1">Chrome Extension That Blocks Certain Distracting websites</p>
+                            <a href="https://github.com/lowesilvan/Focus-Mode-Chrome-Extension" className="btn button4" target="_blank" rel="noreferrer">Check it out!</a>
+                        </div>
+                        <p className="role2 underline">Description</p>
+                        <p className="role3">I programmed a chrome extension called Focus Mode. It’s easy to get
+                            distracted when working on the same device which also provides you entertainment so focus mode
+                            extension serves as a subtle “Focus” mode for browsers given the selected hostnames, It blocks
+                            these websites and instead displays a custom webpage.</p>
+                        <p className="role2 underline">Technologies</p>
+                        <p className="role3">Javascript, HTML</p>
+                    </div>
+                    <div className="description img-place">
+                        <img src={focus_mode} alt="" className="md-preview" />
+                    </div>
+                </div>
+
+                <div className="experience d-flex mt-5">
+                    <div className="role desc-proj">
+                        <div className="button4-flex">
+                            <p className="role1">Random Anime Quotes Generator</p>
+                            <a href="https://lowesilvan.github.io/Random-Quote-Generator/" className="btn button4" target="_blank" rel="noreferrer">Check it out!</a>
+                        </div>
+                        <p className="role2 underline">Description</p>
+                        <p className="role3">A random Anime quotes generator that let's generate anime quotes and tweet them to your followers</p>
+                        <p className="role2 underline">Technologies</p>
+                        <p className="role3">Javascript, HTML, CSS</p>
+                    </div>
+                    <div className="description img-place">
+                        <img src={focus_mode} alt="" className="md-preview" />
                     </div>
                 </div>
             </div>
