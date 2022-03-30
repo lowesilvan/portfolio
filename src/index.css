@@ -659,7 +659,7 @@ ul li{
 
 .md-preview {
   width: 220px;
-  height: 390px;
+  height: auto;
   object-fit: cover;
   object-position: 50% 50%;
   margin: auto;

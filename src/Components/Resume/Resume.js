@@ -28,6 +28,22 @@ const Resume = () => {
                         </ul>
                     </div>
                 </div>
+
+                <div className="experience d-flex mt-5">
+                    <div className="role">
+                        <p className="role1">May 2020 - July 2020</p>
+                        <p className="role2">Android Developer (student)</p>
+                        <p className="role3">University of Buea</p>
+                        <p className="role4">Buea, Cameroon</p>
+                    </div>
+                    <div className="description">
+                        <ul className="desc-list">
+                            <li>Worked with my class assigned team to build an application that monitors and tracks the distribution of amenities to the population  during the COVID-19 pandemic</li>
+                            <li>I designed and implemented the user registration and user update front end and Wrote the code to make this process functional with Java using Android Studio.</li>
+                        </ul>
+                    </div>
+                </div>
+
                 <div className="d-flex resume-content">
                     <p className="experience-style">Education</p>
                 </div>
@@ -49,23 +65,24 @@ const Resume = () => {
                     </div>
                 </div>
                 <div className="d-flex resume-content">
-                    <p className="experience-style">Relevant Technical Skills</p>
+                    <p className="experience-style">Relevant Skills</p>
                 </div>
                 <div className="experience dis-skill">
                     <div className="description">
                         <ul className="desc-list list-style">
-                            <li><span className="dot align-top mr-3 dot-size">do</span>HTML</li>
-                            <li><span className="dot align-top mr-3 dot-size">do</span>Git</li>
                             <li><span className="dot align-top mr-3 dot-size">do</span>Javascript</li>
-                            <li><span className="dot align-top mr-3 dot-size">do</span>Problem Solving</li>
+                            <li><span className="dot align-top mr-3 dot-size">do</span>Java</li>
+                            <li><span className="dot align-top mr-3 dot-size">do</span>Restful API</li>
+                            <li><span className="dot align-top mr-3 dot-size">do</span>HTML5</li>
+                            <li><span className="dot align-top mr-3 dot-size">do</span>Git</li>
                         </ul>
                     </div>
                     <div className="description">
                         <ul className="desc-list list-style">
+                            <li><span className="dot align-top mr-3 dot-size">do</span>Reactjs</li>
+                            <li><span className="dot align-top mr-3 dot-size">do</span>Material UI</li>
                             <li><span className="dot align-top mr-3 dot-size">do</span>CSS</li>
                             <li><span className="dot align-top mr-3 dot-size">do</span>Github</li>
-                            <li><span className="dot align-top mr-3 dot-size">do</span>Reactjs</li>
-                            <li><span className="dot align-top mr-3 dot-size">do</span>Excellent Communication</li>
                         </ul>
                     </div>
                 </div>
