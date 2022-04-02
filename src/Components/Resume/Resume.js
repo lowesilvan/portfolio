@@ -73,7 +73,7 @@ const Resume = () => {
                             <li><span className="dot align-top mr-3 dot-size">do</span>Javascript</li>
                             <li><span className="dot align-top mr-3 dot-size">do</span>Java</li>
                             <li><span className="dot align-top mr-3 dot-size">do</span>Restful API</li>
-                            <li><span className="dot align-top mr-3 dot-size">do</span>HTML5</li>
+                            <li><span className="dot align-top mr-3 dot-size">do</span>CSS</li>
                             <li><span className="dot align-top mr-3 dot-size">do</span>Git</li>
                         </ul>
                     </div>
@@ -81,7 +81,8 @@ const Resume = () => {
                         <ul className="desc-list list-style">
                             <li><span className="dot align-top mr-3 dot-size">do</span>Reactjs</li>
                             <li><span className="dot align-top mr-3 dot-size">do</span>Material UI</li>
-                            <li><span className="dot align-top mr-3 dot-size">do</span>CSS</li>
+                            <li><span className="dot align-top mr-3 dot-size">do</span>HTML5</li>
+                            <li><span className="dot align-top mr-3 dot-size">do</span>SASS (scss)</li>
                             <li><span className="dot align-top mr-3 dot-size">do</span>Github</li>
                         </ul>
                     </div>

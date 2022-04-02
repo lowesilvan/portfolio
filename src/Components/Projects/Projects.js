@@ -5,6 +5,7 @@ import ScrollToTop from "react-scroll-to-top"
 import anime_quotes from "../../Assets/anime_quotes.webp"
 import survey from "../../Assets/survey.webp"
 import website from "../../Assets/website.webp"
+import chatApp from "../../Assets/chatApp.webp"
 
 const Projects = () => {
     return (
@@ -64,6 +65,22 @@ const Projects = () => {
                     </div>
                     <div className="description img-place">
                         <img src={md_preview} alt="" className="md-preview" />
+                    </div>
+                </div>
+
+                <div className="experience d-flex mt-5">
+                    <div className="role desc-proj">
+                        <div className="button4-flex">
+                            <p className="role1">Chat app illustration</p>
+                            <a href="https://github.com/lowesilvan/Weather-by-City-App" className="btn button4" target="_blank" rel="noreferrer">Check it out!</a>
+                        </div>
+                        <p className="role2 underline">Description</p>
+                        <p className="role3">A chat app UI illustration built from screenshots provided by frontend mentor challenge</p>
+                        <p className="role2 underline">Technologies</p>
+                        <p className="role3">HTML5, SASS (scss), Mobile first workflow</p>
+                    </div>
+                    <div className="description img-place">
+                        <img src={chatApp} alt="" className="md-preview" />
                     </div>
                 </div>
                
