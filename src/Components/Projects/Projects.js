@@ -59,7 +59,7 @@ const Projects = () => {
                             <a href="https://github.com/lowesilvan/Weather-by-City-App" className="btn button4" target="_blank" rel="noreferrer">Check it out!</a>
                         </div>
                         <p className="role2 underline">Description</p>
-                        <p className="role3">A simple app that tells you the current weather condition of the city you searched.</p>
+                        <p className="role3">A simple app that tells you the current weather condition of the city you searched and changes the background to a picture from that city</p>
                         <p className="role2 underline">Technologies</p>
                         <p className="role3">Javascript, Weather API, HTML5, CSS, API Key</p>
                     </div>
@@ -72,10 +72,10 @@ const Projects = () => {
                     <div className="role desc-proj">
                         <div className="button4-flex">
                             <p className="role1">Chat app illustration</p>
-                            <a href="https://github.com/lowesilvan/Weather-by-City-App" className="btn button4" target="_blank" rel="noreferrer">Check it out!</a>
+                            <a href="https://github.com/lowesilvan/chat-app-ui-illustration" className="btn button4" target="_blank" rel="noreferrer">Check it out!</a>
                         </div>
                         <p className="role2 underline">Description</p>
-                        <p className="role3">A chat app UI illustration built from screenshots provided by frontend mentor challenge</p>
+                        <p className="role3">A chat app UI illustration built from 3 screenshots provided by frontend mentor challenge. The only images I used for this project are the 3 dog images and user avatar everything else is coded</p>
                         <p className="role2 underline">Technologies</p>
                         <p className="role3">HTML5, SASS (scss), Mobile first workflow</p>
                     </div>
