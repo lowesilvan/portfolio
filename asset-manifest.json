@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.20aeab08.css",
-    "main.js": "/static/js/main.51931b4f.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/survey.webp": "/static/media/survey.7b631fdbd8bf7059e8ef.webp",
-    "static/media/me.webp": "/static/media/me.f119cac6bef3ba771963.webp",
-    "static/media/md_preview.webp": "/static/media/md_preview.5ae502b96aefc31a2ba9.webp",
-    "static/media/lowe_resume.pdf": "/static/media/lowe_resume.4f4a6e0624b6fc2fbb9c.pdf",
-    "static/media/anime_quotes.webp": "/static/media/anime_quotes.99a22228c8933e7301df.webp",
-    "static/media/focus_mode.webp": "/static/media/focus_mode.a28fe872e5e478cb712f.webp",
-    "static/media/chatApp.webp": "/static/media/chatApp.06b950ea0058e1bb0e62.webp",
-    "static/media/website.webp": "/static/media/website.c8c5ffd37e915f5e6db1.webp",
-    "static/media/my_site.webp": "/static/media/my_site.347f478024e046bc26f2.webp",
-    "index.html": "/index.html",
-    "main.20aeab08.css.map": "/static/css/main.20aeab08.css.map",
-    "main.51931b4f.js.map": "/static/js/main.51931b4f.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.20aeab08.css",
+    "main.js": "/portfolio/static/js/main.dc280762.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/survey.webp": "/portfolio/static/media/survey.7b631fdbd8bf7059e8ef.webp",
+    "static/media/me.webp": "/portfolio/static/media/me.f119cac6bef3ba771963.webp",
+    "static/media/md_preview.webp": "/portfolio/static/media/md_preview.5ae502b96aefc31a2ba9.webp",
+    "static/media/lowe_resume.pdf": "/portfolio/static/media/lowe_resume.4f4a6e0624b6fc2fbb9c.pdf",
+    "static/media/anime_quotes.webp": "/portfolio/static/media/anime_quotes.99a22228c8933e7301df.webp",
+    "static/media/focus_mode.webp": "/portfolio/static/media/focus_mode.a28fe872e5e478cb712f.webp",
+    "static/media/chatApp.webp": "/portfolio/static/media/chatApp.06b950ea0058e1bb0e62.webp",
+    "static/media/website.webp": "/portfolio/static/media/website.c8c5ffd37e915f5e6db1.webp",
+    "static/media/my_site.webp": "/portfolio/static/media/my_site.347f478024e046bc26f2.webp",
+    "index.html": "/portfolio/index.html",
+    "main.20aeab08.css.map": "/portfolio/static/css/main.20aeab08.css.map",
+    "main.dc280762.js.map": "/portfolio/static/js/main.dc280762.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.20aeab08.css",
-    "static/js/main.51931b4f.js"
+    "static/js/main.dc280762.js"
   ]
 }
