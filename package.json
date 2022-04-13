@@ -1,8 +1,8 @@
 {
-  "homepage": "https://lowesilvan.github.io/Portfolio",
-  "name": "Portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lowesilvan.github.io/portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
     "@testing-library/jest-dom": "^5.16.2",
