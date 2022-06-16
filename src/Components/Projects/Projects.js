@@ -1,10 +1,10 @@
 import md_preview from "../../Assets/md_preview.webp";
-import my_site from "../../Assets/my_site.webp";
+import Gallery_Collection from "../../Assets/Gallery_Collection.webp";
 import focus_mode from "../../Assets/focus_mode.webp";
 import ScrollToTop from "react-scroll-to-top";
-import website from "../../Assets/website.webp";
 import chatApp from "../../Assets/chatApp.webp";
 import Shortly from "../../Assets/Shortly.webp";
+import book from "../../Assets/book.webp";
 
 const Projects = () => {
   return (
@@ -51,11 +51,9 @@ const Projects = () => {
         <div className="experience d-flex mt-5">
           <div className="role desc-proj">
             <div className="button4-flex">
-              <p className="role1">
-                Rest countries API with color theme switcher
-              </p>
+              <p className="role1">Project Gutenberg Book App</p>
               <a
-                href="https://github.com/lowesilvan/rest-countries"
+                href="https://lowesilvan.github.io/project-gutenberg-book-app/"
                 className="btn button4"
                 target="_blank"
                 rel="noreferrer"
@@ -65,17 +63,45 @@ const Projects = () => {
             </div>
             <p className="role2 underline">Description</p>
             <p className="role3">
-              This is my solution to the dev challenge by frontend mentor to
-              create a countries app with Dark theme mode, filtering and search
-              functions following designs from jpeg images provided.
+              A React app to search, mark favorites, read and ﬁlter books from
+              Project Gutenberg API.
             </p>
             <p className="role2 underline">Technologies</p>
             <p className="role3">
-              Reactjs, React router DOM v6, Material UI, rest counties API
+              Reactjs, React router DOM v6, Chakra UI, Redux Toolkit, Redux Persist
             </p>
           </div>
           <div className="description img-place">
-            <img src={my_site} alt="" className="md-preview" />
+            <img src={book} alt="" className="md-preview" />
+          </div>
+        </div>
+
+        <div className="experience d-flex mt-5">
+          <div className="role desc-proj">
+            <div className="button4-flex">
+              <p className="role1">Gallery Collection</p>
+              <a
+                href="https://lowesilvan.github.io/multi-page-gallery/"
+                className="btn button4"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Check it out!
+              </a>
+            </div>
+            <p className="role2 underline">Description</p>
+            <p className="role3">
+              A multi-page gallery application that lets users upload
+              collections of images in the browser storage, with dark theme
+              mode.
+            </p>
+            <p className="role2 underline">Technologies</p>
+            <p className="role3">
+              Javascript, Reactjs, React router DOM v6, Chakra UI, Redux Toolkit
+            </p>
+          </div>
+          <div className="description img-place">
+            <img src={Gallery_Collection} alt="" className="md-preview" />
           </div>
         </div>
 
@@ -84,7 +110,7 @@ const Projects = () => {
             <div className="button4-flex">
               <p className="role1">Url Shortener</p>
               <a
-                href="https://github.com/lowesilvan/chat-app-ui-illustration"
+                href="https://lowesilvan.github.io/url-shortener/"
                 className="btn button4"
                 target="_blank"
                 rel="noreferrer"
@@ -94,11 +120,15 @@ const Projects = () => {
             </div>
             <p className="role2 underline">Description</p>
             <p className="role3">
-              An applications that allows users to shorten valid links, copy this shortened link to Clipboard with a single click and displays
+              An applications that allows users to shorten valid links, copy
+              this shortened link to Clipboard with a single click and displays
               list of shortened links even after browser refresh.
             </p>
             <p className="role2 underline">Technologies</p>
-            <p className="role3">Reactjs, HTML5, SASS, Mobile first workflow, ShrtCode API, Clipboard API, Local Storage Hook</p>
+            <p className="role3">
+              Reactjs, HTML5, SASS, Mobile first workflow, ShrtCode API,
+              Clipboard API, Local Storage Hook
+            </p>
           </div>
           <div className="description img-place">
             <img src={Shortly} alt="" className="md-preview" />
@@ -161,36 +191,6 @@ const Projects = () => {
           </div>
           <div className="description img-place">
             <img src={focus_mode} alt="" className="md-preview" />
-          </div>
-        </div>
-
-        <div className="experience d-flex mt-5">
-          <div className="role desc-proj">
-            <div className="button4-flex">
-              <p className="role1">My Portfolio</p>
-              <a
-                href="https://github.com/lowesilvan/Portfolio"
-                className="btn button4"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Check it out!
-              </a>
-            </div>
-            <p className="role2 underline">Description</p>
-            <p className="role3">
-              I was going for a simple but pleasant design. For this, So I
-              recreated a WIX design that caught my eye, manipulated the DOM to
-              get specific details like colors, font size, etc and built the
-              responsive design from scratch using JSX in Reactjs, For the call
-              to email functionality, I followed the instructions from Emailjs
-              documentation to implement emailjs SDK.
-            </p>
-            <p className="role2 underline">Technologies</p>
-            <p className="role3">Reactjs, Emailjs Library, Bootstrap, CSS</p>
-          </div>
-          <div className="description img-place">
-            <img src={website} alt="" className="md-preview" />
           </div>
         </div>
       </div>

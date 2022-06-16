@@ -19,11 +19,11 @@ const Contact = () => {
                 console.log(result.text);
                 alert("Message Sent!");
                 setIsPending(false);
-                navigate("/");
+                navigate("/portfolio");
             }, (error) => {
                 console.log(error.text);
                 alert("Failed! Message NOT Sent", error);
-                navigate("/contact")
+                navigate("/portfolio")
             } 
         );
     }
