@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.20aeab08.css",
-    "main.js": "/portfolio/static/js/main.68658d5e.js",
+    "main.js": "/portfolio/static/js/main.27920cae.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/me.webp": "/portfolio/static/media/me.f119cac6bef3ba771963.webp",
     "static/media/md_preview.webp": "/portfolio/static/media/md_preview.5ae502b96aefc31a2ba9.webp",
     "static/media/book.webp": "/portfolio/static/media/book.90123728e0123e2983a9.webp",
-    "static/media/lowe_resume.pdf": "/portfolio/static/media/lowe_resume.6afc5cc91c4470676aa5.pdf",
+    "static/media/lowe_resume.pdf": "/portfolio/static/media/lowe_resume.4f4a6e0624b6fc2fbb9c.pdf",
     "static/media/focus_mode.webp": "/portfolio/static/media/focus_mode.a28fe872e5e478cb712f.webp",
     "static/media/Gallery_Collection.webp": "/portfolio/static/media/Gallery_Collection.c57ee2539a03e189876b.webp",
     "static/media/chatApp.webp": "/portfolio/static/media/chatApp.06b950ea0058e1bb0e62.webp",
     "static/media/Shortly.webp": "/portfolio/static/media/Shortly.521603737247242de2c7.webp",
     "index.html": "/portfolio/index.html",
     "main.20aeab08.css.map": "/portfolio/static/css/main.20aeab08.css.map",
-    "main.68658d5e.js.map": "/portfolio/static/js/main.68658d5e.js.map",
+    "main.27920cae.js.map": "/portfolio/static/js/main.27920cae.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.20aeab08.css",
-    "static/js/main.68658d5e.js"
+    "static/js/main.27920cae.js"
   ]
 }
